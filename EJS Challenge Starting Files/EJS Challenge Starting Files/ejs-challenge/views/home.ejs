@@ -1,0 +1,15 @@
+<%-include("partials/header.ejs") -%>
+
+<h1>Home</h1>
+<p><%=StartingContent%></p>
+
+<% storage.forEach(function(storageEach) { %>
+<h2><%= storageEach.title %></h2>
+<p>
+<%= storageEach.content.substring(0, 100) + " ..."%>
+<a href="/storage/<%=storageEach.title%>">Read More</a>
+</p>
+<% }); %>
+
+
+<%-include("partials/footer.ejs") -%>

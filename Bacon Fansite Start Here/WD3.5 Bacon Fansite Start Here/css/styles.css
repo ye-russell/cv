@@ -1,0 +1,15 @@
+/**************************Tag selection**************************/
+
+h1 {
+  color: red;
+}
+img:hover {
+  background-color: gold;
+}
+/**************************Class selection***************************/
+.bacon {
+  background-color: green;
+}
+.broccoli {
+  background-color: red;
+}
